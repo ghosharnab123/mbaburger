@@ -1,0 +1,34 @@
+nav {
+    height: 5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
+    background-color: #fff;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+nav > div > svg {
+    color: #7e0030;
+    font-size: 3rem;
+}
+nav > div > a {
+    margin: 0 2rem;
+    color: #212121;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+nav > div > a:hover {
+    color: rgba(33, 33, 33, 0.711);
+}
+nav > div > a > svg {
+    color: #7e0030;
+    transition: inherit;
+    font-size: 1.5rem;
+}
+nav > div > a > svg:hover {
+    color: rgba(33, 33, 33, 0.711);
+}

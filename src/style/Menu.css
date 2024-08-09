@@ -1,0 +1,66 @@
+#menu {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    /* padding: 4rem; */
+}
+#menu > h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+#menu > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menuCard {
+    background-color: #fff;
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.495);
+}
+.menuCard > div {
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(156, 0, 60); ;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+    height: 1rem;
+}
+.menuCard > main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuCard > main > img {
+    height: 15rem;
+    width: 100%;
+    
+    object-fit: contain;
+}
+.menuCard > main > h5 {
+    font-size: 1.85rem;
+    margin: 0;
+}
+.menuCard > main > p {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.menuCard > main > button {
+    background-color: rgb(156, 0, 60); ;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menuCard > main > button:hover {
+    background-color: rgb(126, 0, 48);
+}
